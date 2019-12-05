@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>add new entry</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/Bootstrap v4.4.1.min.css" rel="stylesheet">
+</head>
+<body>
+
+        <header>
+                <!-- Nav Bar Code starts Here  -->
+                <!-- inverse navbar -->
+                <nav class="navbar navbar-expand-md navbar-dark navbar-inverse bg-dark">
+                    <a class="navbar-brand" href="#">
+                        <h2>SiteName</h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">
+                                    <h3>Home</h3> <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/list-view.html">
+                                    <h3>Browse All</h3>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <h3>DashBoard</h3>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/addnew.html">
+                                    <h3>Add New</h3>
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="form-inline mt-2 mt-md-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav><br><br><br>
+        
+                <!-- Navbar Ends Here  -->
+            </header>
+        
+        
+            <!-- Begin page content -->
+            <main role="main" class="container">
+                    <div class="container">
+                      <h2>Add a new entry</h2>
+                      <form action="#">
+                        <div class="form-group">
+                          <label for="item-ID">Serial#:</label>
+                          <input type="text" class="form-control" id="email" placeholder="Enter ID" name="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">description</label>
+                          <input type="text" class="form-control" id="descrip" placeholder="Enter Description" name="pwd">
+                        </div>
+                        <div class="form-group">
+                          <label for="item-ID">LastModified</label>
+                          <input type="text" class="form-control" id="LastModified" placeholder="Enter date" name="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="item-ID">Status</label>
+                          <input type="text" class="form-control" id="Status" placeholder="Enter Status" name="Status">
+                        </div>
+                        <div class="form-group">
+                          <label for="item-ID">Type</label>
+                          <input type="text" class="form-control" id="email" placeholder="Enter Type" name="Type">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </form>
+                    </div>
+                    
+
+            </main>
+    
+</body>
+</html>
